@@ -48,23 +48,29 @@
 			float: left;
 		}
 		#ser>#sub{
+			width: 510px;
 			float: left; 
 			padding-left: 198px;
 			padding-top: 38px;
 		}
 		#ser>#sub>.search{
+			color: #c6c6c6;
+			text-indent: 1em;
+			font-size: 14px;
+			font-family: '微软雅黑';
 			width: 410px;
-			height: 50px;
+			height: 40px;
 			border: 2px solid #f83838;
 			float: left;
 			
 		}
 		#ser>#sub>.submit{
 			width: 95px;
-			height: 55px;
+			height: 43px;
 			background-color: #f83838;
 			color: #fff;
 			font-size: 20px;
+			border: 2px solid #f83838;
 			text-align: center;
 			float: left;
 		}
@@ -96,11 +102,10 @@
 		#head>ul>.a{margin-left: 180px;}
 		#head>ul>.b{margin-left: 75px;}
 		#head>ul>li:hover{
+			color: #ffffff;
 			background-color: #fd0304;
 			border-radius:0.5em;
-
 		}
-
 		.head{
 			width: 1560px;
 			line-height: 65px;
@@ -200,7 +205,9 @@
 	   	color: #6f6f6f;
 	   	
 	   }	
-
+	   #ling{
+	   	color: #f83838;
+	   }
 	</style>
 </head>
 <body>
@@ -223,7 +230,7 @@
 			<input class="search" type="text" name="search" value="请输入关键词！">
 			<input class="submit" type="submit"  value="搜索">
 		</div>
-		<div id="shop"><img src="imgs/07.png">购物车（0）件</div>
+		<div id="shop"><img src="imgs/07.png">购物车（<span id="ling">0</span>）件</div>
 	</div>
 	<div id="head">
 		<ul>
